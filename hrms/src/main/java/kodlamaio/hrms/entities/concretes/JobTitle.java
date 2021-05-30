@@ -7,14 +7,14 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="JobTitles")
+@Table(name="job_titles")
 public class JobTitle {
 	@Id
 	@GeneratedValue
-	@Column(name="Id")
+	@Column(name="id")
 	private int id;
 	
-	@Column(name="Title")
+	@Column(name="title")
 	private String title;
 	
 	public JobTitle() {}
